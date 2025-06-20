@@ -1,13 +1,13 @@
 # TPG-361 Pressure Sensor Reader
 
-This is a Java application for real-time data acquisition and visualization from the Pfeiffer TPG-361 pressure gauge. The program supports communication via COM port.
+This is a Java application for real-time data acquisition and visualization from the Pfeiffer TPG 36X pressure gauge. The program supports communication via COM port.
 
 ## Features
 
 - Supports three device modes:
     - COM,0 — measurement interval: 100 ms
     - COM,1 — measurement interval: 1 second
-    - COM — manual mode: user-defined interval (e.g., more than 1 second)
+    - COM — manual mode: user-defined interval (e.g., more than 1,1 second)
 - Real-time pressure graph plotting using JFreeChart
 - Data logging to a file (`output.txt`)
 - Ability to switch the graph's Y-axis between linear and logarithmic scale
